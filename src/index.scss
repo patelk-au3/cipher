@@ -580,6 +580,48 @@ section{
 }
 /*    Services-page end      */
 
+#BlogPage{
+  margin-top: 150px;
+  .headerBlog{
+    background: linear-gradient(#fff,#1cf7e5);
+    height: 50vh;
+  }
+  #blogcard{
+    width: 18rem;
+    top: -10;
+  }
+h2{
+  font-family: geometric;
+  font-size: 46px;
+}
+h4{
+  font-family: geometric;
+  font-size: 28px;
+  text-transform: uppercase;
+}
+p{
+  font-family: calibril;
+  font-size: 18px;
+  text-align: justify;
+}
+}
+@media only screen and (max-width: 540px) {
+  .blogpage{
+    margin-top: 200px;
+    h2{
+      font-size: 32px;
+    }
+    h4{
+      font-size: 20px;
+    }
+    p{
+      font-size: 14px;
+    }
+    .portfolio-btn{
+      padding: 8px 25px;
+    }
+  }
+}
 /*    Support-page start    */
 #support-page{
   background-image: linear-gradient( #fff, #d3f5f2);

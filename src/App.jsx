@@ -18,6 +18,8 @@ import Template8 from "./Assets/HcComponent/Template8";
 import Template9 from "./Assets/HcComponent/Template9";
 import FooterSection from "./Assets/HcComponent/FooterSection";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import BlogPage from "./Assets/HcComponent/BlogPage";
+import CreateBlogPage from "./Assets/HcComponent/CreateBlog";
 
 function App() {
   return (
@@ -39,6 +41,8 @@ function App() {
         <Route exact path="/template7" component={Template7} />
         <Route exact path="/template8" component={Template8} />
         <Route exact path="/template9" component={Template9} />
+        <Route exact path="/blog" component={BlogPage} />
+        <Route exact path="/blog/create" component={CreateBlogPage} />
         <Redirect to="/" />
       </Switch>
       <FooterSection />
