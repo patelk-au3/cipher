@@ -13,26 +13,20 @@ const CreateBlogPage = () =>{
                         <div className="col-lg-8 order-lg-4">
                             <h2>Create a Blog </h2>
                             <form className="row mb-5">
-                                <div className="col-md-6 form-group">
+                                <div className="col-md-8 form-group">
                                     <label htmlFor="name">Name</label>
                                     <input type="text" className="form-control" id="name" placeholder="Enter your name" />
                                 </div>
 
-                                <div className="col-md-6 form-group">
-                                    <label htmlFor="emal">Email address</label>
-                                    <input type="email" className="form-control" id="emal" aria-describedby="emal" placeholder="Enter your email address" />
+                                <div className="col-md-8 form-group">
+                                    <label htmlFor="pswrd">Password</label>
+                                    <input type="password" className="form-control" id="emal" aria-describedby="emal" placeholder="Enter your email address" />
                                 </div>
 
                                 <div className="col-md-12 form-group">
-                                    <label htmlFor="subject">Subject</label>
-                                    <input type="text" className="form-control" id="subject" placeholder="Enter your subject" />
+                                    <label htmlFor="subject">Image Upload</label>
+                                    <input type="file" class="form-control-file" id="exampleFormControlFile1"/>
                                 </div>
-
-                                <div className="col-md-12 form-group">
-                                    <label htmlFor="comment">Comment</label>
-                                    <textarea className="form-control" id="comment" aria-describedby="comment" rows="8" placeholder="Enter your comment" />
-                                </div>
-
                                 <div className="col-md-12 form-action">
                                     <button type="submit" className="btn-submit">Submit</button>
                                 </div>

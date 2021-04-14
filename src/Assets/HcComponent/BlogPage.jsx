@@ -40,6 +40,9 @@ const BlogPage = () =>{
                     
                 </div>
             </section>
+            <section className="container-fluid mt-5 p-5 d-flex right-align">
+            <a href="/blog/create" class="btn btn-primary btn-border">Create Blog</a>
+            </section>
         </div>
     );
 }
